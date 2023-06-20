@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles.css/Css.css";
 
-const Fivthpage = () => {
+const Fifthpage = () => {
     return (
         <div>
             <header className="fivth">
@@ -25,4 +25,4 @@ const Fivthpage = () => {
     );
 };
 
-export default Fivthpage;
+export default Fifthpage;

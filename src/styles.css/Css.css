@@ -2,7 +2,7 @@
 .second {
     height: 100vh;
     max-width: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(244, 238, 238);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,40 +11,28 @@
 }
 
 .aaz {
-    height: 40px;
-    width: 200px;
+    height: 50px;
+    width: 250px;
     background-color: rgb(234, 155, 230);
     margin-bottom: 10px;
 
 }
 
-.ddz {
-    height: 40px;
-    width: 200px;
-    background-color: rgb(249, 251, 118);
-    margin-bottom: 10px;
-}
-
 .ccz {
-    height: 40px;
-    width: 200px;
+    height: 50px;
+    width: 250px;
     background-color: rgb(160, 237, 102);
     margin-bottom: 10px;
 }
 
-.bbz {
-    height: 40px;
-    width: 200px;
-    background-color: rgb(108, 211, 240);
-    margin-bottom: 10px;
-}
+
 
 /* Thridpage */
 
 .one {
     height: 40px;
     width: 200px;
-    background-color: rgb(235, 42, 225);
+    background-color: rgb(235, 65, 226);
     margin-bottom: 10px;
 
 }
@@ -72,15 +60,15 @@
 
 .five {
     height: 40px;
-    width: 200px;
-    background-color: rgb(15, 135, 168);
+    width: 100px;
+    background-color: rgb(232, 238, 239);
     margin-bottom: 10px;
 }
 
 .thrid {
     height: 100vh;
     max-width: 100%;
-    background-color: rgb(119, 3, 3);
+    background-color: rgb(232, 221, 221);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -172,8 +160,10 @@ input[type="submit"]:hover {
 }
 
 .container {
-    height: 350px;
+
+    height: 100px;
     background-color: rgb(183 183 183);
+    margin-bottom: 10px;
     padding: 20px;
 }
 
@@ -182,11 +172,11 @@ input[type="submit"]:hover {
 }
 
 .btn-danger {
-    background-color: brown;
+    background-color: rgb(174, 182, 67);
 }
 
 .btn-danger:hover {
-    background-color: brown;
+    background-color: rgb(58, 165, 42);
 }
 
 /* mainpage */
@@ -207,16 +197,16 @@ input[type="submit"]:hover {
 .bg2 {
     height: 100vh;
     max-width: 100%;
-
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
 
+
 }
 
-/* fivthpage */
+/* fifthpage */
 
 .fivth {
     height: 72px;

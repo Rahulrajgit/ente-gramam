@@ -1,22 +1,21 @@
 
 import React from 'react'
 import '../styles.css/Css.css'
-
+import { Link } from 'react-router-dom'
 const Secondpage = () => {
     return (
         <div className='second'>
             <div >
-                <button className='aaz' type="button" class="btn btn-primary">Project Application</button>
+
+                <Link to="/thridpage">
+                    <button className='aaz' type="button" >Project Application</button>
+                </Link>
             </div>
+
             <div >
-                <button className='bbz' type="button" class="btn btn-primary">Complaint registration </button>
+                <button className='ccz' type="button" >Labour Bank</button>
             </div>
-            <div >
-                <button className='ccz' type="button" class="btn btn-primary">Labour Bank</button>
-            </div>
-            <div >
-                <button className='ddz' type="button" class="btn btn-primary">Product Details</button>
-            </div>
+
         </div>
     )
 }

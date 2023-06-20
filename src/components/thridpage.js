@@ -1,26 +1,26 @@
 
 import React from 'react'
 import '../styles.css/Css.css'
-
+import { Link } from 'react-router-dom'
 const Thirdpage = () => {
     return (
         <div className='thrid'>
             <div >
-                <button className='one' type="button" class="btn btn-primary">Agriculture Sector</button>
+                <Link to="/forthpage"> <button className='one' type="button" >Agriculture Sector</button></Link>
             </div>
             <div >
-                <button className='two' type="button" class="btn btn-primary">Animal Husbandry</button>
+                <button className='two' type="button" >Animal Husbandry</button>
             </div>
             <div >
-                <button className='three' type="button" class="btn btn-primary">Buidings</button>
+                <button className='three' type="button" >Buidings</button>
             </div>
             <div >
-                <button className='four' type="button" class="btn btn-primary">Water</button>
+                <button className='four' type="button" >Water</button>
             </div>
             <div>
-                <button className='five' type="button" class="btn btn-primary">back</button>
+                <Link to="/back">  <button className='five' type="button" >back</button></Link>
             </div>
-        </div>
+        </div >
     )
 }
 
